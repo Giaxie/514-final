@@ -9,9 +9,9 @@ This lie detector leverages multiple sensors to monitor physiological responses,
 
 ## sensors
 
- - Heart Rate Sensor (MAX30100 or MAX30102): Measures the heartbeat through optical sensors or electrical signals.
+ - Heart Rate Sensor (MAX30102): Measures the heartbeat through optical sensors or electrical signals.
 
- - Skin Conductivity Sensor (GSR | AD8232): Measures the electrical conductance of the skin, indicating changes in sweat levels due to stress
+ - Skin Conductivity Sensor (Grove - GSR Sensor): Measures the electrical conductance of the skin, indicating changes in sweat levels due to stress
   
 ![sketch](images_for_doc/Sketches2.jpeg)
 
@@ -30,7 +30,7 @@ This lie detector leverages multiple sensors to monitor physiological responses,
 Here’s a detailed description of the communication and workflow between the devices:
 
 - Sensor Data Collection:
-The Heart Rate Sensor (MAX30100/MAX30102) and the Galvanic Skin Response Sensor (AD8232) are connected to the Arduino via analog input pins to collect heart rate and skin conductivity data in real-time.
+The Heart Rate Sensor (MAX30102) and the Galvanic Skin Response Sensor (Grove - GSR Sensor) are connected to the Arduino via analog input pins to collect heart rate and skin conductivity data in real-time.
 
 - Data Processing:
 The Arduino or Raspberry Pi processes the sensor data and performs signal analysis to determine if the values exceed predefined thresholds.
