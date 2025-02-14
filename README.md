@@ -23,7 +23,7 @@ This lie detector leverages multiple sensors to monitor physiological responses,
   
   ### How It Works
   The microcontroller processes the data from the sensors and updates the OLED display continuously. The red LED is controlled based on the analysis of the sensor data, providing a visual alert when deception is detected.
-![sketch](images_for_doc/Sketches3.jpeg)
+![sketch](images_for_doc/WechatIMG109.jpg)
 
 ## Device Communication
 
@@ -37,4 +37,4 @@ The Arduino or Raspberry Pi processes the sensor data and performs signal analys
 
 - Information Display:
 Processed data is sent to the OLED Display (0.96-inch SSD1306) via the I2C interface to display current physiological metrics (heart rate, skin conductivity, etc.).
-![sketch](images_for_doc/Sketches4.jpeg)
+![sketch](images_for_doc/WechatIMG111.jpg)
